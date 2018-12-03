@@ -1,0 +1,23 @@
+.CakeBlog ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.CakeBlog li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.CakeBlog a {
+    text-decoration: none;
+    color: black;
+}
+
+.CakeBlog a:hover,
+.CakeBlog a:active,
+.CakeBlog a.active {
+    color: #fa923f;
+}
