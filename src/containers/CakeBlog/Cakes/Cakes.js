@@ -22,6 +22,10 @@ class Cakes extends Component {
             	}
             );
     }
+
+    cakeSelectedHandler = ( id ) => {
+        this.props.history.push( '/cake/' + id );
+    }
 	
 	render() {
 		let cakes = <p style={{textAlign: 'center'}}>Something went wrong!</p>;
@@ -33,7 +37,7 @@ class Cakes extends Component {
                         key={cake.id}
 	                    name={cake.name} 
 	                    imageUrl={cake.imageUrl}
-                        clicked={() => this.cakeSelectedHandler( cake.id )} />;
+                        clicked={() => this.cakeSelectedHandler(cake.id)} />;
                 }
                 return null;
             });
