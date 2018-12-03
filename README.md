@@ -17,6 +17,10 @@ Setup Steps:
 5. Enable routing
 	a. npm install --save react-router-dom
 
+6. Build the app - decided to follow a simple blog build
+
+7. Deploy the app - http://www.gormancreative.co.uk/cakehtmlwebchallenge/
+
 ---
 
 Provided during setup of 'create react app':

@@ -5,9 +5,9 @@ import CakeBlog from './containers/CakeBlog/CakeBlog';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/cakehtmlwebchallenge">
         <div className="App">
-        	<CakeBlog />
+          <CakeBlog />
         </div>
       </BrowserRouter>
     );
