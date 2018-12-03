@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { BrowserRouter } from 'react-router-dom';
+import CakeBlog from './containers/CakeBlog/CakeBlog';
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <div className="App">
-        	React Cake Project
+        	<CakeBlog />
         </div>
       </BrowserRouter>
     );
